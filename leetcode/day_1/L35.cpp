@@ -25,6 +25,54 @@ public:
     }
 };
 
+/*
+// version 2: binary search method ---- target in [left, right]
+
+class Solution {
+public:
+    int searchInsert(vector<int>& nums, int target) {
+        int n = nums.size();
+        int left = 0;
+        int right = n - 1;
+        while (left <= right) {
+            int middle = left + ((right - left) / 2);
+            if (nums[middle] > target) {
+                right = middle - 1;
+            } else if (nums[middle] < target) {
+                left = middle + 1;
+            } else {
+                return middle;
+            }
+        }
+        return right + 1;
+    }
+};
+*/
+
+/*
+// version 3: binary search method ---- target in [left, right)
+
+class Solution {
+    int searchInsert(vector<int>& nums, int target) {
+        int n = nums.size();
+        int left = 0;
+        int right = n;
+        while (left < right) {
+            int middle = left + ((right - left) >> 1);
+            if (nums[middle] > target) {
+                right = middle;
+            } else if (nums[middle] < target) {
+                left = middle + 1;
+            } else {
+                return middle;
+            }
+        }
+        return right;
+    }
+};
+*/
+
+
 int main() {
     vector<int> nums;
     int i;
