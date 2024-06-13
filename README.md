@@ -16,3 +16,20 @@ array -- 704. Binary Search
 ***Hacker Rank***  
 
 Plus Minus
+
+
+#### Day 2  
+
+***Leetcode***  
+
+array -- 27. Remove Element  
+
+*supplementary problems*
+>26. Remove Duplicates from Sorted Array  
+>283. Move Zeroes  
+>844. Backspace String Compare  
+>977. Squares of a Sorted Array  
+
+***Hacker Rank***  
+
+Mini-Max Sum
