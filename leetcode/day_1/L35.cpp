@@ -28,6 +28,7 @@ public:
 
 */
 
+/*
 // version 2: binary search method ---- target in [left, right]
 
 class Solution {
@@ -50,11 +51,12 @@ public:
     }
 };
 
+*/
 
-/*
 // version 3: binary search method ---- target in [left, right)
 
 class Solution {
+public:
     int searchInsert(vector<int>& nums, int target) {
         int n = nums.size();
         int left = 0;
@@ -72,7 +74,6 @@ class Solution {
         return right;
     }
 };
-*/
 
 
 int main() {
