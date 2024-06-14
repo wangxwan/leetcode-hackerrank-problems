@@ -2,6 +2,7 @@
 # include <vector>
 using namespace std;
 
+/*
 // version 1: target in [left, right]
 
 class Solution {
@@ -24,7 +25,8 @@ public:
     }
 };
 
-/*
+*/
+
 //version 2: target in [left, right)
 
 class Solution {
@@ -45,7 +47,7 @@ public:
         return -1;
     }
 };
-*/
+
 
 int main()
 {
