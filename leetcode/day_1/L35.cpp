@@ -2,6 +2,7 @@
 # include <vector>
 using namespace std;
 
+/*
 // version 1: brute force approach
 class Solution {
 public:
@@ -25,7 +26,8 @@ public:
     }
 };
 
-/*
+*/
+
 // version 2: binary search method ---- target in [left, right]
 
 class Solution {
@@ -47,7 +49,7 @@ public:
         return right + 1;
     }
 };
-*/
+
 
 /*
 // version 3: binary search method ---- target in [left, right)
