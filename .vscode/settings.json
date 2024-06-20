@@ -4,7 +4,8 @@
         "ostream": "cpp",
         "vector": "cpp",
         "xlocale": "cpp",
-        "istream": "cpp"
+        "istream": "cpp",
+        "xstring": "cpp"
     },
     "C_Cpp.errorSquiggles": "disabled"
 }
