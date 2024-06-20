@@ -21,7 +21,6 @@ int main()
 {
     vector<int> nums;
     int i;
-    int val;
     cout << "Enter an integer array(nums): ";
     while (cin >> i) {
         nums.push_back(i);
